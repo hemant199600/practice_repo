@@ -1,1 +1,9 @@
-hello this is first push request.
+public class demo{
+	public static void main(String args[])
+	{
+
+		int a,b;
+		System.out.println("sum is:"+a+b)
+
+	}
+}
