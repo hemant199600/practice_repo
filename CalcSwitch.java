@@ -5,6 +5,7 @@ class CalcSwitch
 	{
 		Scanner sc=new Scanner(System.in);
 		int n1,n2;
+		int i=1;
 		char ch;
 		System.out.println("\n\t\t\tCalculator");
 		System.out.println("\t\t\t-----------");
@@ -13,11 +14,13 @@ class CalcSwitch
 		System.out.println("\n\t\t\t*.MULT");
 		System.out.println("\n\t\t\t/.DIV");
 		System.out.println("\t\t\t----------------");
-		System.out.print("\n\t\t\tEnter your choice ");
-		ch=sc.next().charAt(0);
+		while(i!=0)
+		{
 		System.out.print("\n\t\t\tEnter 2 numbers: ");
 		n1=sc.nextInt();
 		n2=sc.nextInt();
+		System.out.print("\n\t\t\tEnter your choice ");
+		ch=sc.next().charAt(0);	
 		switch(ch)
 		{
 			case '+':
@@ -41,8 +44,13 @@ class CalcSwitch
 				break;
 			}
 			default:
+			{
 				System.out.println("\t\t\tEnter valid choice.......");
 				break;
+			}
 		}
+		System.out.print("Do you want to continue press 1 or press 0 (terminate)");
+		i=sc.nextInt();
+	   }
 	}
 }
