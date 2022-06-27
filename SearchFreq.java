@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Search
+class SearchFreq
 {
 	public static void main(String args[])
 	{
@@ -17,13 +17,13 @@ class Search
 			rem=i%10;
 			if(rem==n)
 			{
-				c=1;
-				break;
+				c++;
+				
 			}
 			i=i/10;
 		}
-		if(c==1)
-			System.out.println("The number is found.");
+		if(c>0)
+			System.out.println("The number is found "+c+" times.");
 		else
 			System.out.println("The number is not found.");
 	}
