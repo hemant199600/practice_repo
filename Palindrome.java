@@ -10,9 +10,9 @@ class Palindrome
 		i=n;
 		while(i!=0)
 		{
-			rem=i%10;
-			rev=rev*10+rem;
-			i=i/10;
+			rem=i%10;         //finding reminder
+			rev=rev*10+rem;   //calculating reverse
+			i=i/10;           //updating i 
 		}
 		if(n==rev)
 			System.out.println("The number is palindrome.");
