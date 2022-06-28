@@ -5,7 +5,7 @@ class Armstrong
 	{
 		Scanner sc=new Scanner(System.in);
 		int n,i,sum=0,rem;
-		System.out.print("Enter number: ");
+		System.out.print("Enter number: ");//1630,8202;
 		n=sc.nextInt();
 		i=n;
 		while(i!=0)
@@ -15,8 +15,8 @@ class Armstrong
 			i=i/10;
 		}
 		if(sum==n)
-			System.out.println("Armstrong number.");
+			System.out.println("Armstrong number."+sum);
 		else
-			System.out.println("not an Armstrong number.");
+			System.out.println("not an Armstrong number."+sum);
 	}
 }
