@@ -1,18 +1,19 @@
 import java.util.Scanner;
-class EvenFact
+class Fibonacci
 {
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
-		int n,i=1;
+		int n,i=2,a=0,b=1,c=0;
 		System.out.print("Enter number: ");
 		n=sc.nextInt();
-		while(i<n )
+		System.out.print("Fibonacci serirs : "+a+" "+b+" ");
+		while(i<n)
 		{
-			if(n%i==0 && i%2==0)
-				System.out.print(i+" ");
-			   
-
+			c=a+b;
+			System.out.print(c+" ");
+			a=b;
+			b=c;
 			i++;
 		}
 		
