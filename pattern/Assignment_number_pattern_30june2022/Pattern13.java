@@ -5,7 +5,7 @@
   1 3 3 1 
  1 4 6 4 1 
 */
-class pattern13
+class Pattern13
 {
 	public static void main(String args[])
 	{
