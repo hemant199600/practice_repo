@@ -1,3 +1,11 @@
+/*
+5 4 3 2 1 
+4 3 2 1 
+3 2 1 
+2 1 
+1 
+
+*/
 class pattern5
 {
 	public static void main(String args[])
