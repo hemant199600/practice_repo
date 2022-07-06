@@ -7,7 +7,7 @@ public class Count_Even_Array
 		int c=0;
 		Scanner sc=new Scanner(System.in);
 		int a[]=new int[10];
-		System.out.print("\n\tEnter elements: \t");
+		System.out.print("\n\tEnter elements: ");
 		for(int i=0;i<10;i++)
 		{
 			a[i]=sc.nextInt();
