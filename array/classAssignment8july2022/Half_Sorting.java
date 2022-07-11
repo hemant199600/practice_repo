@@ -26,7 +26,7 @@ class Half_Sorting
 			
 
 		}
-		for(int i=a.length/2+1;i<=a.length;i++)
+		for(int i=a.length/2;i<=a.length;i++)
 		{	
 			for(int j=i+1;j<a.length;j++)
 			{

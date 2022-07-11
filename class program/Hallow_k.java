@@ -1,14 +1,23 @@
-class Q12Pattern//incomplete
+/*
+* * * * * 
+*     * 
+*   * 
+* * 
+* 
+* * 
+*   * 
+*     * 
+* * * * *
+*/
+public class Hallow_k
 {
 	public static void main(String args[])
 	{
-		for(int i=1;i<=7;i++)
+		for(int i=5;i>=1;i--)
 		{
-			for(int j=1;j<=7-i;j++)
-				System.out.print(" ");
 			for(int j=1;j<=i;j++)
 			{
-				if(i==1||j==1||i==j)
+				if(i==5||i==j||j==1)
 					System.out.print("* ");
 				else
 					System.out.print("  ");
@@ -16,20 +25,18 @@ class Q12Pattern//incomplete
 				
 			System.out.println();
 		}
-		for(int i=6;i>=1;i--)
+	
+		for(int i=2;i<=5;i++)
 		{
-			for(int j=1;j<=7-i;j++)
-				System.out.print(" ");
 			for(int j=1;j<=i;j++)
 			{
-				if(i==1||j==1||i==j)
+				if(i==5||i==j||j==1)
 					System.out.print("* ");
 				else
 					System.out.print("  ");
 			}
 				
 			System.out.println();
-		}	
-	}	
+		}
+	}
 }
-	
