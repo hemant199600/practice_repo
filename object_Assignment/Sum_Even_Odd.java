@@ -8,7 +8,7 @@ public class Sum_Even_Odd {
 
 	public void input() {
 		sc = new Scanner(System.in);
-		System.out.println("Enter range : ");
+		System.out.println("Enter number : ");
 		num = sc.nextInt();
 	}
 	public void sum()
